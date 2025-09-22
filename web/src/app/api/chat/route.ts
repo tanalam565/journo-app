@@ -6,8 +6,8 @@ function mockReply(messages: ChatMessage[]): string {
   const last = [...messages].reverse().find(m => m.role === "user")?.content ?? "";
   const lower = last.toLowerCase();
 
-  if (lower.includes("journalism")) {
-    return "Journalism is the activity of gathering, assessing, creating, and presenting news and information to the public.";
+  if (lower.includes("chatbot")) {
+    return "Chatbot is a robot that mimics human conversational capability.";
   }
 
   return ` Mock mode: You said "${last}". Here's a fake helpful reply!`;

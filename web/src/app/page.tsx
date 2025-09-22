@@ -8,7 +8,7 @@ export default function Home() {
       <div className="text-center mb-8">
         <h1 className="text-4xl font-bold mb-4">Awesome App!</h1>
         <p className="text-lg text-gray-600 mb-6">
-          Welcome! This will become our social media platform for news and discussions.
+          Welcome! This will become our media platform for connections and discussions.
         </p>
 
         {/* Button to Profile Page */}
@@ -21,7 +21,7 @@ export default function Home() {
       </div>
 
       <div className="w-full max-w-2xl">
-        <h2 className="text-2xl font-semibold mb-4 text-center">Journo App Chatbot</h2>
+        <h2 className="text-2xl font-semibold mb-4 text-center">!Awesome Chatbot!</h2>
         <Chat />
       </div>
     </main>
